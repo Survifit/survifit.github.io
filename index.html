@@ -1,53 +1,67 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-  <meta charset="UTF-8">
-  <title>Activity 1: Basic HTML Bio</title>
+  <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+  <title>@Survifit</title>
+
+  <!--CSS Files-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <!--Script Files-->
+  <!--Bootstrap 4.1-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+              
 </head>
 
 <body>
-
-  <h1>Chris Howard</h1>
-
-  <img src="https://placehold.it/200x200" alt="Chris Howard">
-
-  <p>Currently enrolled in the Data Visualization and Analytics boot camp at the University of Minnesota, 
-    I am focused on unifying current and new skills into the role of a Data Scientist. I want to help organizations, 
-    especially non-profits, more efficiently tell their story to current and prospective stakeholders while increasing 
-    overall effectiveness.</p>
-  <p>Working with organizations of varying sizes across the full spectrum of private, public, non-profit, and 
-    volunteer-based in a variety of regulatory environments, combined with my MIS degree, gives me a diverse background
-     that allows for quick adaptation to new systems and environments, while understanding networking, security, 
-     business continuity, and disaster recovery concerns. </p>
-  <p>Continuously seeking to expand and improve upon my capabilities as a communicator and my general knowledge 
-    of the world helps me converse with subject experts and connect otherwise disparate topics. My current reading 
-    list centers around modeling complex systems, economics, energy, and artificial intelligence.</p>
-
-  <ul>
-    <li><strong>Email:</strong> <a href="#">howardchrisj@gmail.com</a></li>
-    <li><strong>Github:</strong> <a href="#">Survifit</a></li>
-    <li><strong>Twitter:</strong> <a href="#">@survifit</a></li>
-  </ul>
-
-  <table border="5">
-    <tr>
-      <th>Books</th>
-      
-    </tr>
-    <tr>
-      <td>Complex Adaptive Systems</td>
-      
-    </tr>
-    <tr>
-      <td>The Information</td>
-      
-    </tr>
-    <tr>
-      <td>The Model Thinker</td>
-      
-    </tr>
-  </table>
+  <nav class="navbar navbar-expand-md navbar-dark color-bg">
+      <a class="navbar-brand" href="index.html">Survifit Repository</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Profile <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="projects.html">Projects </a>
+          </li>
+        </ul>
+      </div>
+  </nav>
+  <div class="container-fluid">
+    
+    <div class="row" style="margin:1em 0em">
+      <div class="col-md-3">
+        <div class="card" style="width: 18rem;">
+          <img src="static/LinkedInPic.JPG" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Chris Howard</h5>
+            <p class="card-text">Continuous learner with a broad business, technical, and educational background 
+              that allows for quick adaptation to new systems and environments.</p>
+            <a href="static/ChristopherJHoward_Resume.pdf" class="btn btn-success color-bg" style="margin-bottom:5px">Current Resume</a><br>
+            <a href="https://www.github.com/Survifit" class="btn btn-success color-bg">Primary Repository</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
 
 </body>
+<!-- Footer -->
+<footer class="footer">
 
+    <!-- Copyright -->
+    <div class="footer-copyright text-center color-bg" style="color:white; padding:1em 0em">
+        Email: <a href="mailto:survifit@gmail.com">survifit@gmail.com</a><br>
+        LinkedIn: <a href="https:www.linkedin.com/in/howardchrisj">Chris Howard</a><br>
+        © 2019 Copyright: <a href="https://survifit.github.io">Survifit</div>
+    <!-- Copyright -->
+  
+</footer>
 </html>
